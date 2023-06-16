@@ -1,0 +1,38 @@
+.todo {
+  border: solid;
+  padding: 24px;
+  &-head {
+    border: solid red;
+    padding: 16px;
+    display: flex;
+    &-input {
+      flex-grow: 1;
+      height: 60px;
+      font-size: 26px;
+      text-indent: 16px;
+    }
+    &-button {
+      background-color: green;
+      color: white;
+      padding: 4px 8px;
+    }
+  }
+  &-body {
+    border: solid;
+    min-height: 300px;
+    padding: 16px;
+    margin-top: 24px;
+    &-item {
+      border: solid;
+      padding: 8px;
+      margin-top: 24px;
+      display: flex;
+      justify-content: space-between;
+      &-delete {
+        background-color: red;
+        color: white;
+        padding: 4px 8px;
+      }
+    }
+  }
+}
